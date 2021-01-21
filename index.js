@@ -2,7 +2,7 @@
  
 async function createCards() {
     let myPromise = new Promise(function(myResolve, myReject) {   
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 10; i++) {
         
             var alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", 
             "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -30,17 +30,6 @@ async function createCards() {
         }
     });
 
-    myPromise.then((value) => {
-        
-        var backMusic  = document.querySelector("#main-music")
-        backMusic.play()
-
-        var success = new Audio('music/success.wav');
-        success.play()
-        console.log(value);
-        // expected output: "Success!"
-      });
-    
 }    
 
 
@@ -60,6 +49,9 @@ var cardsCount = cards.length
 
 var startButton = document.querySelector(".start-button")
 startButton.onclick = function () {
+
+    var backMusic  =  new Audio('music/back-music.mp3');
+    backMusic.play()
 
     document.querySelector(".start").style.display = "none"
 
