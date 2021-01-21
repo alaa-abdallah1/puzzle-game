@@ -38,11 +38,8 @@ async function createCards() {
 createCards();
 
  
-  var success = new Audio('music/success.wav');
-  var fail = new Audio('music/fail.mp3');
-
-
-
+var success = new Audio('music/success.wav');
+var fail = new Audio('music/fail.mp3');
 
 var cards = Array.from(document.querySelectorAll(".card .card-inner"))
 var cardsCount = cards.length
@@ -100,14 +97,11 @@ cards.forEach(card => {
 
                     if (one === two) {
                         success.play();
-
                         finalResult = finalResult +2
-                            
-                            blocks = []
-
+                        blocks = []
                         } else {
+                            setTimeout(() => {fail.play();}, 1500);
                             setTimeout(() => {
-                                fail.play();
                                 blocks[0].classList.remove("fliped")
                                 blocks[1].classList.remove("fliped")
                                 blocks[0].classList.remove("no-clicked")
