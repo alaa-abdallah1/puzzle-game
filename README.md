@@ -2,9 +2,9 @@
 
 live site https://puzzule.netlify.app/
 
-# Description 
+### Description 
 
-This is a Puzzule Game, You can play it by match every two boxes with each other
-Play and have some fun.
+<li>This is a Puzzule Game<//li>
+<li>play it by match every two boxes with each other<//li>
+<li>Play and have some fun<//li>
 
-<li>hi<//li>
