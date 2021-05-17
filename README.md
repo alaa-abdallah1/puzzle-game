@@ -6,5 +6,5 @@
 
 <li>This is a Puzzule Game<//li>
 <li>play it by match every two boxes with each other<//li>
-<li>Play and 👍 HAVE FUN 👍<//li>
+<li>👍 Play and HAVE FUN 👍<//li>
 
