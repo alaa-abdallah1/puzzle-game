@@ -2,7 +2,7 @@
 
 <li>live site<//li> https://puzzule.netlify.app/
 
-## Made of
+### Made of
 
 * Html
 * Css
