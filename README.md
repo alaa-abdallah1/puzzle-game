@@ -1,6 +1,6 @@
 # Puzzle-Game
 
-<li>live site<//li> https://puzzule.netlify.app/
+<li>Live Site<//li> https://puzzule.netlify.app/
 
 ### Made of
 
